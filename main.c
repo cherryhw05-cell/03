@@ -3,13 +3,11 @@
 int main(void)
 {
     char c;
-    int i;
 
-    printf("input a number :");
+    printf("enter a character : ");
     scanf("%c", &c);
 
-    i = c - '0';   // 문자 -> 숫자 변환
-    printf("The input number is %i\n", i);
+    printf("the next character of %c (%d) is %c (%d)\n", c, c, c+1, c+1);
 
     return 0;
 }
